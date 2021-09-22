@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formValidation</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__header">
+            <h2>Register With Us</h2>
+        </div>
+        <div class="container__main">
+            <form action="" id="form">
+                <div>
+                    <label>Username</label>
+                    <input type="text" name="username" placeholder="Enter username" id="username">
+                    <span id="usereror"></span>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Enter email" id="email">
+                    <span id="emaileror"></span>
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Enter password" id="password">
+                    <span id="passwordreror"></span>
+                </div>
+                <div>
+                    <label>Confirm password</label>
+                    <input type="password" name="password" placeholder="Enter password again" id="cpassword">
+                    <span id="cpassworderor"></span>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="components/js/script.js"></script>
+</html>
